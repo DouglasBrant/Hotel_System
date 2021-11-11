@@ -1,0 +1,10 @@
+ $contato = new contato();
+ $contato->nome= 'Douglas';
+ $contato->email= 'brantdouglas255@gmail.com';
+ $contato->numero= '(61) 9436-9452';
+ $contato->mensagem= 'Olá estou tentando completar uma reserva, mas está dando erro poderia me ajudar?';
+ $Contato->save()
+
+
+
+ 

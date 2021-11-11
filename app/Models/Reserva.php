@@ -9,13 +9,21 @@ class Reserva extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'data_entrada',
-        'data_saida',
-        'cafe_da_manha',
-        'lazer',
-        'itinerarios',
-        'frigobar',
-        'forma_de_pagamento',
+        'DataEntrada',
+        'DataSaida',
+        'CafeDaManha',
+        'Lazer',
+        'Itinerarios',
+        'Frigobar',
+        'FormaDePagamento',
+        'Cpf',
+        'Email',
+        'Endereco',
+        'Cidade',
+        'Cep',
+        'Premium',
+        'Luxo',
+        'Master',
     ];
 
 

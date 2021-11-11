@@ -15,4 +15,7 @@ class Contato extends Model
         'mensagem',
     
     ];
+    
+    
+    
 }

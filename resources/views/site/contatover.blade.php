@@ -4,14 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content />
-    <meta name="author" content />
     <title>Diplomata Hotel</title>
-    <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet">
-    <script src="/resources/js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+
 </head>
 
 <body class="d-flex flex-column">
@@ -23,7 +21,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="/index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/index">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="/planos">Planos</a></li>
@@ -52,27 +50,27 @@
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
-                            <form action="/enviar-contato" method="POST">
-                                @csrf
-                                <!-- nome- -->
+                           <form action="/enviar-contato" method="POST"> 
+                             @csrf
+                            <!-- nome- -->
+                               
+                            <input type="text" name="nome" placeholder="Nome" value="{{$Contato -> nome}}" >
+                               <br>
+                               <!-- emial -->
+                              
+                               <input type="text" name="email" placeholder="Email"value="{{$Contato -> email}}" > 
+                               <br>
+                               <!-- telefone -->
+                              
+                               <input type="text" name="numero" placeholder="numero" value="{{$Contato -> numero}}">
+                               <br>
+                               <!-- Menssagem -->
+                               
+                               <input type="text" name="mensagem" placeholder="Mensagem" value="{{$Contato -> mensagem}}">
+                               <br><br>
+                               <button>Enviar</button>
 
-                                <input type="text" name="nome" placeholder="Nome">
-                                <br>
-                                <!-- emial -->
-
-                                <input type="text" name="email" placeholder="Email">
-                                <br>
-                                <!-- telefone -->
-
-                                <input type="text" name="telefone" placeholder="Telefone">
-                                <br>
-                                <!-- Menssagem -->
-
-                                <input type="text" name="mensagem" placeholder="Mensagem">
-                                <br><br>
-                                <button>Enviar</button>
-
-                            </form>
+                           </form>                       
                         </div>
                     </div>
                 </div>
@@ -123,7 +121,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-
+    
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
