@@ -16,6 +16,9 @@ class FuncionarioAccess
      */
     public function handle(Request $request, Closure $next)
     {
-        return $next($request);
+        if(auth()->check()AND auth()->user()->funcionario){
+            return $next($request);
+            }
+            dd('Acesso negado');
     }
 }

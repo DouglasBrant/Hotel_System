@@ -27,7 +27,7 @@
                         <li class="nav-item"><a class="nav-link" href="/sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="/planos">Planos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/home">Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="/reserva">Reserva</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
@@ -58,7 +58,7 @@
         <section class="py-5 bg-light" id="scroll-target">
             <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/resources/Assets/sobre/Fronthome.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="img/sobre/gestão.jpeg" alt="..." /></div>
                     <div class="col-lg-6">
                         <h2 class="fw-bolder">Nosso Hotel</h2>
                         <p class="lead fw-normal text-muted mb-0">Por meio do modelo de gestão participativa, estabelecemos um hotel diplomático com ênfase no trabalho em equipe, valorizando a liderança dos funcionários e a consciência coletiva como núcleo, e estabelecemos esse comportamento na área hoteleira.</p>
@@ -70,7 +70,7 @@
         <section class="py-5">
             <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/resources/Assets/sobre/sobre front.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="img/sobre/recepção.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <h2 class="fw-bolder">Crescimento e além</h2>
                         <p class="lead fw-normal text-muted mb-0">Uma equipe motivada é uma equipe em crescimento. Proporcionar aos nossos colaboradores oportunidades de desenvolvimento pessoal e profissional também faz parte do nosso DNA. Promovemos a capacitação contínua da equipe e sempre com foco na excelência no atendimento ao cliente.</p>

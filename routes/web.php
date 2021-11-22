@@ -26,12 +26,26 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'dashboard'])->name('dashboard');
+
 Route::get('/index', [App\Http\Controllers\IndexController::class, 'index'])->name('principal');
+
+//Route planos
+Route::get('/planos', [App\Http\Controllers\PlanosController::class, 'planos'])->name('planos');
+
+//Route overflow
+Route::get('/overview', [App\Http\Controllers\OverviewController::class, 'overview'])->name('overview');
+
+//Route portfolio
+Route::get('/portfolio', [App\Http\Controllers\PortfolioController::class, 'portfolio'])->name('portfolio');
+
+//Route sobre
+Route::get('/sobre', [App\Http\Controllers\SobreController::class, 'sobre'])->name('sobre');
 
 //ROUTE CONTATO
 Route::get('/contato', [App\Http\Controllers\ContatoController::class, 'contato'])->name('contato');
 Route::post('/enviar-contato', function (Request $request) {
-    //criando  o produto 
+    //criando  o Contato 
     Contato::create([
         'nome' => $request->nome,
         'email' => $request->email,
@@ -57,14 +71,6 @@ Route::get('exluir-contato/{id}', function (Request $request, $id) {
     echo "Produto excluido com sucesso";
 });
 
-//Route planos
-Route::get('/planos', [App\Http\Controllers\PlanosController::class, 'planos'])->name('planos');
-//Route overflow
-Route::get('/overview', [App\Http\Controllers\OverviewController::class, 'overview'])->name('overview');
-//Route portfolio
-Route::get('/portfolio', [App\Http\Controllers\PortfolioController::class, 'portfolio'])->name('portfolio');
-//Route sobre
-Route::get('/sobre', [App\Http\Controllers\SobreController::class, 'sobre'])->name('sobre');
 
 //Route Reserva
 Route::get('/reserva', [App\Http\Controllers\ReservaController::class, 'reserva'])->name('reserva');
@@ -104,27 +110,25 @@ Route::get('exluir-reserva/{id}', function (Request $request, $id) {
 
     echo "Produto excluido com sucesso";
 });
-// Route Sistema
-Route::get('/sistema', [App\Http\Controllers\SistemaController::class, 'sistema'])->name('sistema');
 
-Route::middleware(['admin'])->group(function(){
+//middleware
+Route::middleware(['admin'])->group(function () {
 
-    Route::get('admin', function(){
-        dd('você é um admin');
+    Route::get('admin', function () {
+        return view('sistema.dashboard');
     });
 });
 
-Route::middleware(['cliente'])->group(function(){
+Route::middleware(['cliente'])->group(function () {
 
-    Route::get('cliente', function(){
-        dd('você é um cliente');
+    Route::get('cliente', function () {
+        return view('site.index');
     });
 });
 
-Route::middleware(['funcionario'])->group(function(){
+Route::middleware(['funcionario'])->group(function () {
 
-    Route::get('funcionario', function(){
+    Route::get('funcionario', function () {
         dd('você é um funcionario');
     });
 });
-

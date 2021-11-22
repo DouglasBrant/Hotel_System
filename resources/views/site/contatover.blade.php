@@ -25,7 +25,7 @@
                         <li class="nav-item"><a class="nav-link" href="/sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="/planos">Planos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/home">Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="/reserva">Reserva</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>

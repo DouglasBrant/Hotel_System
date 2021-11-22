@@ -29,7 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="/sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="/planos">Planos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/home">Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="/reserva">Reserva</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
@@ -62,10 +62,6 @@
                     <div class="col-lg-6">
                         <div class="text-center mb-5">
                             <p class="lead fw-normal text-muted">Nosso objetivo é estar sempre oferecendo um produto com melhor qualidade. </p>
-                            <a class="text-decoration-none" href="#!">
-                                View project
-                                <i class="bi-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
