@@ -29,14 +29,16 @@ Para instalar o Laravel, é necessário ter o Composer já instalado. Também, �
 Após abrir o Prompt de Comando no caso do Windows, iremos executar o código composer global require laravel/installer.
 
 Para criar um projeto: 
-    laravel new (nome de sua prefrencia)
-    
+```
+laravel new (nome de sua prefrencia)
+```
 O Laravel terá criado para nós uma pasta chamada (nome de sua prefrencia)
 
 Para iniciar nossa aplicação, basta executar o comando abaixo:
-    php artisan serve
-    
 ```
+php artisan serve    
+```
+
 Dar exemplos
 ```
 
