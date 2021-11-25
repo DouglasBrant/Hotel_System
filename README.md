@@ -36,8 +36,13 @@ O Laravel terá criado para nós uma pasta chamada (nome de sua prefrencia)
 
 Para iniciar nossa aplicação, basta executar o comando abaixo:
 ```
-php artisan serve    
+php artisan serve   
 ```
+
+## Execução 
+Usuários no banco Users
+senha: password
+
 ## 🛠️ Construído com
 
 * [Laravel](https://laravel.com/) - O framework web 
