@@ -39,9 +39,6 @@ Para iniciar nossa aplicação, basta executar o comando abaixo:
 php artisan serve   
 ```
 
-## Execução 
-Usuários no banco Users
-senha: password
 
 ## 🛠️ Construído com
 
