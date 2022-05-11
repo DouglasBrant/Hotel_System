@@ -48,7 +48,7 @@ php artisan serve
 * [Bootstrap](https://getbootstrap.com/) - framework web
 
 ## ✒️ Autores
-* **Douglas Brant** - *Trabalho Inicial* - [Desenvolvedor](https://github.com/DouglasBrant)
+* **Douglas Brant** - *Trabalho Inicial* - [Web Developer Front-End](https://github.com/DouglasBrant)
 
 
 ## 🎁 Expressões de gratidão
