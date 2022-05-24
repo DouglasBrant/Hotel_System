@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Contato;
+se App\Models\Contato;
 use App\Models\Reserva;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
