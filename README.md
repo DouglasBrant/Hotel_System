@@ -3,7 +3,7 @@
 # Sistema Hotelero
 
 Trabalho de conclusão de curso apresentado
-à Faculdade de Analise e Desenvolvimento de Sistemas
+à Faculdade de Analise e Desenvolvimento de Sistema
 
 ## 🚀 Começando
 
